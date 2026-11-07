@@ -1,0 +1,31 @@
+{
+    "name": "50 win! 0.2",
+    "description": "Collect 50 multicolored juice to win! If you win, you'll get a yay screen!",
+    "dependencies": {
+        "device": "*",
+        "game-building-session-tutorials": "github:Code-Ninjas-Home-Office/game-building-session-tutorials"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable4.1",
+        "tag": "v4.1.27",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/401d844a09f01717919937e218e14e9cea9fa83a",
+        "target": "4.1.27",
+        "pxt": "13.1.24",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
